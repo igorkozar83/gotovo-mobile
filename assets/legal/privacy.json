@@ -1,0 +1,1214 @@
+[
+{
+"t": "h",
+"text": "Politika privatnosti"
+},
+{
+"t": "p",
+"spans": [
+[
+"Objavljena dana: 15.9.2026",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Ova Politika privatnosti opisuje Naše politike i postupke u vezi sa prikupljanjem, korišćenjem i otkrivanjem Vaših informacija kada koristite Uslugu i obaveštava Vas o Vašim pravima na privatnost i o tome kako Vas zakon štiti.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Vaše Lične podatke koristimo za pružanje i unapređenje Usluge. Vaše informacije prikupljamo, koristimo i otkrivamo kako je opisano u ovoj Politici privatnosti i, kada to zahteva važeći zakon, samo kada za to imamo valjan pravni osnov, uključujući Vašu saglasnost (kada je saglasnost potrebna).",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Tumačenje i definicije Tumačenje"
+},
+{
+"t": "p",
+"spans": [
+[
+"Reči čija su početna slova napisana velikim slovom imaju značenja definisana pod sledećim uslovima. Sledeće definicije imaju isto značenje bez obzira na to da li se pojavljuju u jednini ili množini.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Definicije"
+},
+{
+"t": "p",
+"spans": [
+[
+"Za potrebe ove Politike privatnosti:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Nalog označava jedinstveni nalog kreiran za Vas radi pristupa Našoj Usluzi ili delovima Naše Usluge.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Povezano lice označava subjekt koji kontroliše stranu, koji je pod kontrolom strane ili je sa njom pod zajedničkom kontrolom, pri čemu „kontrola“ znači vlasništvo nad 50% ili više akcija, vlasničkog udela ili drugih hartija od vrednosti koje daju pravo glasa za izbor direktora ili drugog organa upravljanja.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Aplikacija označava GOTOVO, softverski program koji obezbeđuje Kompanija.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Kompanija (u ovoj Politici privatnosti označena kao „Kompanija“, „Mi“, „Nas“ ili „Naš“) označava GOTOVO DOO BEOGRAD, BULEVAR KRALjA ALEKSANDRA 18, 11050, Beograd (Vračar).",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Kolačići su male datoteke koje veb-sajt postavlja na Vaš računar, mobilni uređaj ili drugi uređaj i koje, između ostalog, sadrže podatke o istoriji Vašeg pregledanja tog veb-sajta.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Država označava: Srbija.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Uređaj označava bilo koji uređaj koji može pristupiti Usluzi, kao što su računar, mobilni telefon ili digitalni tablet.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Lični podaci (ili „Lične informacije“) jesu sve informacije koje se odnose na identifikovano fizičko lice ili fizičko lice koje se može identifikovati.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Izraze „Lični podaci“ i „Lične informacije“ koristimo naizmenično, osim kada zakon koristi određeni izraz.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Usluga označava Aplikaciju ili Veb-sajt ili oboje.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Pružalac usluga označava svako fizičko ili pravno lice koje obrađuje podatke u ime Kompanije. To se odnosi na treća društva ili pojedince koje je Kompanija angažovala radi omogućavanja Usluge, pružanja Usluge u ime Kompanije, obavljanja usluga povezanih sa Uslugom ili pomoći Kompaniji u analizi načina korišćenja Usluge.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Podaci o korišćenju označavaju podatke koji se automatski prikupljaju, bilo da su nastali korišćenjem Usluge ili iz same infrastrukture Usluge (na primer, trajanje posete stranici).",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Korisnik označava svako fizičko lice koje pristupa Usluzi ili je koristi.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Veb-sajt označava GOTOVO, dostupan na www.gotovo.rs.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Vi označava fizičko lice koje pristupa Usluzi ili je koristi, odnosno kompaniju ili drugo pravno lice u čije ime takvo fizičko lice pristupa Usluzi ili je koristi, u zavisnosti od slučaja.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Prikupljanje i korišćenje Vaših ličnih informacija"
+},
+{
+"t": "h",
+"text": "Vrste podataka koji se prikupljaju"
+},
+{
+"t": "h",
+"text": "Lični podaci"
+},
+{
+"t": "p",
+"spans": [
+[
+"Tokom korišćenja Naše Usluge možemo od Vas tražiti da Nam dostavite određene podatke koji omogućavaju ličnu identifikaciju i koji se mogu koristiti da Vas kontaktiramo ili identifikujemo. Takvi podaci mogu uključivati, ali nisu ograničeni na:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Adresu e-pošte",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Ime i prezime",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Broj telefona",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Adresu, državu, pokrajinu, poštanski broj, grad",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Podatke o korišćenju",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Podaci o korišćenju"
+},
+{
+"t": "p",
+"spans": [
+[
+"Podaci o korišćenju prikupljaju se automatski prilikom korišćenja Usluge.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Podaci o korišćenju mogu uključivati informacije kao što su internet protokol adresa Vašeg Uređaja (npr. IP adresa), tip pregledača, verzija pregledača, stranice Naše Usluge koje posećujete, vreme i datum posete, vreme provedeno na tim stranicama, jedinstveni identifikatori uređaja i drugi dijagnostički podaci.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Kada Usluzi pristupate putem mobilnog uređaja, možemo automatski prikupljati određene informacije, uključujući, ali ne ograničavajući se na, tip mobilnog uređaja koji koristite, jedinstveni ID Vašeg mobilnog uređaja, IP adresu Vašeg mobilnog uređaja, Vaš mobilni operativni sistem, tip mobilnog internet pregledača koji koristite, jedinstvene identifikatore uređaja i druge dijagnostičke podatke.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Takođe možemo prikupljati informacije koje Vaš pregledač šalje svaki put kada posetite Našu Uslugu ili kada Usluzi pristupate putem mobilnog uređaja.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Informacije prikupljene tokom korišćenja Aplikacije"
+},
+{
+"t": "p",
+"spans": [
+[
+"Tokom korišćenja Naše Aplikacije, radi pružanja funkcija Naše Aplikacije, uz Vašu prethodnu dozvolu možemo prikupljati:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Informacije o Vašoj lokaciji",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Fotografije i druge informacije iz kamere i biblioteke fotografija Vašeg Uređaja",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Ove informacije koristimo za pružanje funkcija Naše Usluge i za unapređenje i prilagođavanje Naše Usluge. Informacije mogu biti otpremljene na servere Kompanije i/ili server Pružaoca usluga ili mogu jednostavno biti sačuvane na Vašem uređaju.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Pristup ovim informacijama možete omogućiti ili onemogućiti u bilo kom trenutku putem podešavanja Vašeg Uređaja.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Tehnologije praćenja i kolačići"
+},
+{
+"t": "p",
+"spans": [
+[
+"Koristimo tehnologije praćenja (kao što su kolačići) radi praćenja aktivnosti i unapređenja Naše Usluge. Tehnologije koje koristimo mogu uključivati:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Kolačiće ili kolačiće pregledača. Kolačić je mala datoteka postavljena na Vaš Uređaj. Možete podesiti pregledač da odbija sve Kolačiće ili da Vas obavesti kada se Kolačić šalje. Međutim, ako ne prihvatite Kolačiće, možda nećete moći da koristite neke delove Naše Usluge.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Veb-svetionike (Web beacons). Određeni delovi Naše Usluge mogu sadržati male elektronske datoteke poznate kao veb-svetionici (takođe poznate kao clear gifs, pixel tags i single-pixel gifs) koje omogućavaju Kompaniji, na primer, da prebroji korisnike koji su posetili te stranice i za druge povezane statistike veb-sajta.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Kolačići mogu biti „trajni“ ili „sesijski“. Trajni Kolačići ostaju na Vašem računaru ili mobilnom uređaju kada niste povezani, dok se Sesijski Kolačići brišu čim zatvorite veb-pregledač.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Kada to zakon zahteva, neobavezne kolačiće (odnosno Kolačiće koji nisu Neophodni / Osnovni Kolačići opisani u nastavku) koristimo samo uz Vašu saglasnost. Saglasnost možete povući ili promeniti u bilo kom trenutku pomoću Našeg alata za podešavanje kolačića (ako je dostupan) ili kroz podešavanja pregledača/uređaja. Povlačenje saglasnosti ne utiče na zakonitost obrade zasnovane na saglasnosti pre njenog povlačenja.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Koristimo i Sesijske i Trajne Kolačiće u sledeće svrhe:",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Neophodni / Osnovni Kolačići"
+},
+{
+"t": "p",
+"spans": [
+[
+"Tip: Sesijski Kolačići",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Upravlja: Mi",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Svrha: Ovi Kolačići su neophodni za pružanje usluga dostupnih putem Veb-sajta i omogućavanje korišćenja nekih njegovih funkcija. Pomažu pri autentifikaciji korisnika i sprečavanju zloupotrebe korisničkih naloga. Bez ovih Kolačića usluge koje ste zatražili ne mogu biti pružene i koristimo ih samo za pružanje tih usluga.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Kolačići za prihvatanje Politike / Obaveštenja o kolačićima"
+},
+{
+"t": "p",
+"spans": [
+[
+"Tip: Trajni Kolačići Upravlja: Mi",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Svrha: Ovi Kolačići utvrđuju da li su korisnici prihvatili korišćenje kolačića na Veb-sajtu i beleže izbore saglasnosti koje ste napravili, kako bismo te izbore poštovali pri budućim posetama.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Funkcionalni Kolačići"
+},
+{
+"t": "p",
+"spans": [
+[
+"Tip: Trajni Kolačići Upravlja: Mi",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Svrha: Ovi Kolačići omogućavaju Nam da zapamtimo izbore koje pravite kada koristite Veb-sajt, kao što su podaci za prijavu na Nalog ili jezičke postavke. Njihova svrha je da Vam pruže ličnije iskustvo i da ne morate ponovo unositi svoja podešavanja pri svakom korišćenju Veb-sajta.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Korišćenje Vaših ličnih podataka"
+},
+{
+"t": "p",
+"spans": [
+[
+"Kompanija može koristiti Lične podatke u sledeće svrhe:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Za pružanje i održavanje Naše Usluge, uključujući praćenje korišćenja Naše Usluge.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Za upravljanje Vašim Nalogom: upravljanje Vašom registracijom kao korisnika Usluge. Lični podaci koje dostavite mogu Vam omogućiti pristup različitim funkcijama Usluge dostupnim registrovanim korisnicima.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Za izvršenje ugovora: razvoj, usklađenost i izvršenje ugovora o kupovini proizvoda, artikala ili usluga koje ste kupili ili bilo kog drugog ugovora sa Nama putem Usluge.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Da Vas kontaktiramo: putem e-pošte, telefonskih poziva, SMS-a ili drugih ekvivalentnih oblika elektronske komunikacije, kao što su push obaveštenja mobilne aplikacije o ažuriranjima ili informativnim komunikacijama u vezi sa funkcijama, proizvodima ili ugovorenim uslugama, uključujući bezbednosna ažuriranja, kada je to potrebno ili razumno za njihovu primenu.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Da Vam pružamo vesti, posebne ponude i opšte informacije o drugim proizvodima, uslugama i događajima koje nudimo, a koji su slični onima koje ste već kupili ili za koje ste se raspitivali. Takve marketinške komunikacije šaljemo samo kada je to dozvoljeno važećim zakonom: kada je potrebna prethodna saglasnost (na primer, prema propisima koji važe u EEP i Ujedinjenom Kraljevstvu), šaljemo ih samo uz Vašu saglasnost; u suprotnom ih možemo slati dok se ne odjavite. Možete se odjaviti ili povući saglasnost u bilo kom trenutku korišćenjem veze za odjavu u marketinškoj e-poruci ili kontaktiranjem Nas.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Za upravljanje Vašim zahtevima: radi obrade i upravljanja zahtevima koje Nam uputite.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Za poslovne prenose: možemo koristiti Vaše Lične podatke za procenu ili sprovođenje spajanja, izdvajanja, restrukturiranja, reorganizacije, prestanka ili druge prodaje ili prenosa dela ili celokupne Naše imovine, bilo kao aktivnog poslovanja ili u okviru stečaja, likvidacije ili sličnog postupka, pri čemu su Lični podaci korisnika Naše Usluge deo prenete imovine.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"U druge svrhe: možemo koristiti Vaše informacije u druge svrhe, kao što su analiza podataka, utvrđivanje trendova korišćenja, određivanje efikasnosti promotivnih kampanja i procena i unapređenje Naše Usluge, proizvoda, usluga, marketinga i Vašeg iskustva.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Vaše Lične podatke možemo deliti u sledećim situacijama:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Sa Pružaocima usluga: možemo deliti Vaše Lične podatke sa Pružaocima usluga radi praćenja i analize korišćenja Naše Usluge i radi kontaktiranja Vas.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Za poslovne prenose: možemo deliti ili preneti Vaše Lične podatke u vezi sa, ili tokom pregovora o, spajanju, prodaji imovine Kompanije, finansiranju ili sticanju celog ili dela Našeg poslovanja od strane druge kompanije.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Sa Povezanim licima: možemo deliti Vaše Lične podatke sa Našim povezanim licima, pri čemu ćemo od njih zahtevati da poštuju ovu Politiku privatnosti. Povezana lica uključuju Našu matičnu kompaniju i druga zavisna društva, partnere u zajedničkim ulaganjima ili druge kompanije koje kontrolišemo ili koje su pod zajedničkom kontrolom sa Nama.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Sa drugim korisnicima: ako Naša Usluga nudi javne delove, kada delite Lične podatke ili na drugi način komunicirate u javnim delovima sa drugim korisnicima, takve informacije mogu biti vidljive svim korisnicima i mogu biti javno distribuirane izvan Usluge.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Uz Vašu saglasnost: možemo otkriti Vaše Lične podatke u bilo koju drugu svrhu uz Vašu saglasnost.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Obaveštenje o privatnosti tekstualnih poruka"
+},
+{
+"t": "p",
+"spans": [
+[
+"Imate mogućnost da primate tekstualne (SMS) poruke od Nas. Ako pristanete da primate SMS od Nas, saglasni ste da primate tekstualne poruke od Nas u vezi sa porukama za autentifikaciju vaseg mobilnog telefona. Kada se prijavite, prikupljaćemo i čuvati informacije koje dostavite u vezi sa tekstualnim porukama, kao što su broj telefona, datum i način davanja saglasnosti i informacije o isporuci i čitanju poruka.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Nikakve mobilne informacije neće biti deljene sa niti prodavane trećim licima ili povezanim licima u marketinške ili promotivne svrhe. Brojevi telefona i evidencije saglasnosti koje prikupljamo za slanje poruka nikada se ne dele ni sa kim ni u koju svrhu, osim sa Pružaocima usluga koji tehnički moraju da ih obrađuju radi isporuke poruka.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Saglasnost za primanje tekstualnih poruka nije uslov za bilo koju kupovinu ili korišćenje Naše Usluge.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Čuvanje Vaših ličnih podataka"
+},
+{
+"t": "p",
+"spans": [
+[
+"Kompanija će čuvati Vaše Lične podatke samo onoliko dugo koliko je potrebno za svrhe navedene u ovoj Politici privatnosti. Čuvaćemo i koristiti Vaše Lične podatke u meri potrebnoj da ispunimo Naše zakonske obaveze, rešimo sporove i sprovodimo Naše pravne sporazume i politike.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Gde je moguće, primenjujemo kraće rokove čuvanja i/ili smanjujemo mogućnost identifikacije brisanjem, objedinjavanjem ili anonimizacijom podataka. Osim ako nije drugačije navedeno, rokovi u nastavku predstavljaju maksimalne rokove („do“) i podatke možemo izbrisati ili anonimizovati ranije kada više nisu potrebni za odgovarajuću svrhu. Različite rokove primenjujemo na različite kategorije Ličnih podataka na osnovu svrhe obrade i zakonskih obaveza:",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Informacije o Nalogu"
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Korisnički nalozi: čuvaju se tokom trajanja odnosa u vezi sa Vašim Nalogom plus do 24 meseca nakon zatvaranja naloga radi rešavanja pitanja nakon prestanka ili sporova.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Podaci korisničke podrške"
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Tiketi podrške i prepiska: do 24 meseca od datuma zatvaranja tiketa radi rešavanja naknadnih upita, praćenja kvaliteta usluge i odbrane od mogućih pravnih zahteva.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Transkripti ćaskanja: do 24 meseca radi kontrole kvaliteta i obuke osoblja.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Podaci o korišćenju"
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Podaci analitike veb-sajta (kolačići, IP adrese, identifikatori uređaja): do 24 meseca od datuma prikupljanja, što Nam omogućava analizu trendova uz poštovanje načela privatnosti.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Statistika korišćenja Aplikacije: do 24 meseca radi razumevanja prihvatanja funkcija i unapređenja usluge.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Serverski dnevnici (IP adrese, vremena pristupa): do 24 meseca radi bezbednosnog nadzora i rešavanja problema.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Podaci o korišćenju čuvaju se u skladu sa gore opisanim rokovima i mogu se čuvati duže samo kada je to neophodno radi bezbednosti, sprečavanja prevara ili usklađenosti sa zakonom.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Lične podatke možemo čuvati i duže od navedenih rokova iz različitih razloga:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Zakonska obaveza: zakon od Nas zahteva čuvanje određenih podataka (npr. finansijske evidencije za poreske organe).",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Pravni zahtevi: podaci su neophodni za utvrđivanje, ostvarivanje ili odbranu pravnih zahteva.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Vaš izričit zahtev: tražite od Nas da sačuvamo određene informacije.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Tehnička ograničenja: podaci postoje u rezervnim sistemima koji su predviđeni za rutinsko brisanje.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Informacije o tome koliko dugo ćemo čuvati Vaše Lične podatke možete zatražiti kontaktiranjem Nas.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Po isteku rokova čuvanja, bezbedno brišemo ili anonimizujemo Lične podatke prema sledećim postupcima:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Brisanje: Lični podaci se uklanjaju iz Naših sistema i više se aktivno ne obrađuju.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Čuvanje rezervnih kopija: preostale kopije mogu ostati u šifrovanim rezervnim kopijama ograničeno vreme u skladu sa Našim rasporedom čuvanja rezervnih kopija i ne vraćaju se osim kada je to neophodno radi bezbednosti, oporavka od katastrofe ili zakonske usklađenosti.",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Anonimizacija: u nekim slučajevima (npr. brisanje naloga) Lične podatke pretvaramo u anonimne statističke podatke koji se ne mogu povezati sa Vama. Takvi anonimizovani podaci mogu se čuvati neograničeno radi istraživanja i analitike.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Prenos Vaših ličnih podataka"
+},
+{
+"t": "p",
+"spans": [
+[
+"Vaše informacije, uključujući Lične podatke, obrađuju se u poslovnim prostorijama Kompanije i na drugim mestima gde se nalaze strane uključene u obradu. To znači da ove informacije mogu biti prenete na - i čuvane na - računarima koji se nalaze izvan Vaše države, pokrajine, zemlje ili druge državne nadležnosti, gde se propisi o zaštiti podataka mogu razlikovati od propisa Vaše nadležnosti.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Kada to zahteva važeći zakon, obezbedićemo da međunarodni prenosi Vaših Ličnih podataka budu predmet odgovarajućih zaštitnih mera i, kada je relevantno, dodatnih mera. Kompanija će preduzeti sve razumno potrebne korake kako bi osigurala da se sa Vašim podacima postupa bezbedno i u skladu sa ovom Politikom privatnosti i da se Vaši Lični podaci neće preneti organizaciji ili zemlji ako nisu uspostavljene odgovarajuće kontrole, uključujući bezbednost Vaših podataka i drugih ličnih informacija.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Brisanje Vaših ličnih podataka"
+},
+{
+"t": "p",
+"spans": [
+[
+"Imate pravo da izbrišete ili zatražite da Vam pomognemo u brisanju Ličnih podataka koje smo prikupili o Vama.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Naša Usluga Vam može omogućiti da određene informacije o sebi izbrišete iz same Usluge.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Svoje informacije možete ažurirati, izmeniti ili izbrisati u bilo kom trenutku prijavljivanjem na svoj Nalog, ako ga imate, i odlaskom u odeljak podešavanja naloga koji Vam omogućava upravljanje ličnim informacijama. Takođe Nas možete kontaktirati radi zahteva za pristup, ispravku ili brisanje Ličnih podataka koje ste Nam dostavili.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Imajte na umu da ćemo možda morati da zadržimo određene informacije kada za to imamo zakonsku obavezu ili drugi zakonit osnov.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Otkrivanje Vaših ličnih podataka Poslovne transakcije"
+},
+{
+"t": "p",
+"spans": [
+[
+"Ako Kompanija učestvuje u spajanju, akviziciji ili prodaji imovine, Vaši Lični podaci mogu biti preneti. Obavestićemo Vas pre nego što Vaši Lični podaci budu preneti i postanu predmet drugačije Politike privatnosti.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Organi za sprovođenje zakona"
+},
+{
+"t": "p",
+"spans": [
+[
+"Pod određenim okolnostima, Kompanija može otkriti Vaše Lične podatke ako je to obavezna po zakonu ili kao odgovor na važeće zahteve javnih organa (npr. suda ili državnog organa).",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Drugi pravni zahtevi"
+},
+{
+"t": "p",
+"spans": [
+[
+"Kompanija može otkriti Vaše Lične podatke u dobroj veri da je takva radnja neophodna radi:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Ispunjavanja zakonske obaveze",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Zaštite i odbrane prava ili imovine Kompanije",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Sprečavanja ili istrage mogućeg protivpravnog postupanja u vezi sa Uslugom",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Zaštite lične bezbednosti Korisnika Usluge ili javnosti",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Zaštite od pravne odgovornosti",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Bezbednost Vaših ličnih podataka"
+},
+{
+"t": "p",
+"spans": [
+[
+"Bezbednost Vaših Ličnih podataka Nam je važna, ali imajte na umu da nijedan način prenosa putem Interneta niti način elektronskog čuvanja nije 100% bezbedan. Iako nastojimo da koristimo komercijalno razumne mere za zaštitu Vaših Ličnih podataka, ne možemo garantovati njihovu apsolutnu bezbednost.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Privatnost dece i maloletnika"
+},
+{
+"t": "p",
+"spans": [
+[
+"Usluga nije namenjena osobama mlađim od 18 godina i Mi svesno ne prikupljamo Lične informacije od osoba mlađih od 18 godina.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Ako ste roditelj ili staratelj i smatrate da Nam je Vaše dete dostavilo Lične informacije, kontaktirajte Nas. Ako saznamo da smo prikupili Lične informacije od osobe mlađe od 18 godina, preduzećemo korake da te informacije uklonimo sa Naših servera čim to bude razumno moguće.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Neke zemlje i države određuju višu starosnu granicu za samostalno davanje saglasnosti za obradu sopstvenih Ličnih informacija. Kada se oslanjamo na saglasnost kao pravni osnov, a zakon koji se primenjuje na Korisnika propisuje starosnu granicu višu od 18 godina, možemo zahtevati saglasnost roditelja ili staratelja tog Korisnika pre nego što prikupimo i koristimo njegove Lične informacije.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Veze ka drugim veb-sajtovima"
+},
+{
+"t": "p",
+"spans": [
+[
+"Naša Usluga može sadržati veze ka drugim veb-sajtovima kojima Mi ne upravljamo. Ako kliknete na vezu treće strane, bićete usmereni na sajt te treće strane. Preporučujemo Vam da pregledate Politiku privatnosti svakog sajta koji posetite.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Nemamo kontrolu nad sadržajem, politikama privatnosti ili praksama sajtova ili usluga trećih strana i ne preuzimamo odgovornost za njih.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Izmene ove Politike privatnosti"
+},
+{
+"t": "p",
+"spans": [
+[
+"S vremena na vreme možemo ažurirati Našu Politiku privatnosti. O svim izmenama obavestićemo Vas objavljivanjem nove Politike privatnosti na ovoj stranici.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Obavestićemo Vas putem e-pošte i/ili istaknutog obaveštenja u Našoj Usluzi pre nego što izmena stupi na snagu i ažuriraćemo datum „Poslednje ažuriranje“ na vrhu ove Politike privatnosti.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Savetujemo Vam da periodično pregledate ovu Politiku privatnosti radi eventualnih izmena. Izmene ove Politike privatnosti stupaju na snagu kada budu objavljene na ovoj stranici.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "Kontaktirajte nas"
+},
+{
+"t": "p",
+"spans": [
+[
+"Ako imate pitanja u vezi sa ovom Politikom privatnosti, možete Nas kontaktirati:",
+false
+]
+]
+},
+{
+"t": "li",
+"marker": "•",
+"level": 0,
+"spans": [
+[
+"Putem e-pošte: hello@gotovo.rs",
+false
+]
+]
+}
+]

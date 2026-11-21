@@ -1,0 +1,154 @@
+[
+{
+"t": "h",
+"text": "GOTOVO App - Često postavljana pitanja"
+},
+{
+"t": "h",
+"text": "1. Šta je GOTOVO?"
+},
+{
+"t": "p",
+"spans": [
+[
+"GOTOVO je aplikacija koja povezuje korisnike kojima je potrebna pomoć u kući sa proverenim majstorima i pružaocima usluga. Putem aplikacije možete da objavite posao koji treba da se obavi, dobijete ponude majstora, izaberete osobu koja vam najviše odgovara, dogovorite detalje i termin izvođenja radova.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Sve možete da završite direktno u aplikaciji.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "2. Koje vrste poslova mogu da objavim?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Možete da objavite razne zadatke, uključujući sklapanje nameštaja, kućne popravke, krečenje, selidbe, baštenske radove, čišćenje, montažu, instalacije i druge majstorske usluge. Ako niste sigurni kojoj kategoriji vaš posao pripada, prilikom objave izaberite kategoriju „Ostalo“.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "3. Kako da izaberem odgovarajućeg Majstora?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Nakon što objavite posao i dobijete ponude majstora, možete da pregledate njihove profile i uporedite ponude. Pri izboru možete da uzmete u obzir njihove veštine i iskustvo, ponuđenu cenu, lokaciju, dostupnost, ocene i komentare prethodnih korisnika. Zatim izaberite majstora koji najbolje odgovara vašim potrebama.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "4. Kako mogu da postanem majstor na GOTOVO platformi?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Registrujte se u aplikaciji kao majstor, popunite svoj profil, navedite usluge koje pružate, svoje veštine i iskustvo i završite potrebne korake verifikacije. Kada vaš profil bude odobren, možete početi da prihvatate odgovarajuće zadatke korisnika.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "5. Koliko košta usluga?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Cena zavisi od vrste zadatka, njegove složenosti, procenjenog vremena, potrebnog materijala i cene rada Majstora. Pre potvrde posla moći ćete da pregledate dogovorenu cenu i detalje zadatka.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "6. Da li mogu da izaberem termin dolaska majstora?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Da. Korisnici i Majstori mogu putem aplikacije da dogovore odgovarajući datum i vreme. Dostupnost može da varira u zavisnosti od rasporeda Majstora.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "7. Šta se dešava ako moram da otkažem zadatak?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Zadatak možete otkazati putem aplikacije. U zavisnosti od trenutka otkazivanja i okolnosti, mogu se primeniti naknade za otkazivanje ili drugi uslovi. Pre potvrde rezervacije proverite politiku otkazivanja.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "8. Kako funkcionišu ocene i recenzije?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Nakon završetka zadatka, korisnici mogu da ocene svog Taskera i ostave recenziju na osnovu svog iskustva. Taskeri takođe mogu da ocene korisnike. Ocene i recenzije pomažu u izgradnji poverenja i olakšavaju korisnicima da izaberu pouzdane osobe.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "9. Šta ako dođe do problema tokom ili nakon izvršenja posla?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Ako dođe do problema, najpre komunicirajte sa drugom stranom putem aplikacije kako biste pokušali da ga rešite. Ukoliko problem i dalje ne bude rešen, obratite se korisničkoj podršci i dostavite relevantne informacije kako bismo mogli da razmotrimo slučaj.",
+false
+]
+]
+},
+{
+"t": "h",
+"text": "10. Kako da obrišem svoj nalog?"
+},
+{
+"t": "p",
+"spans": [
+[
+"Ukoliko želite da obrišete Vaš nalog, neophodno je da nam se obratite na e-mail adresu hello@gotovo.rs putem e-mail adrese koju ste koristili kako biste se registrovali u Gotovo aplikaciji.",
+false
+]
+]
+},
+{
+"t": "p",
+"spans": [
+[
+"Ukoliko je taj uslov ispunjen, Vaš korisnički nalog će biti anonimizovan tako što će u okviru njega svi podaci koji se mogu smatrati podacima o ličnosti biti zamenjeni nasumičnim podacima i budući pristup nalogu će biti onemogućen.",
+false
+]
+]
+}
+]

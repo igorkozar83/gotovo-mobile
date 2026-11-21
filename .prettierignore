@@ -1,0 +1,9 @@
+android/
+ios/
+node_modules/
+dist/
+assets/
+package-lock.json
+google-services.json
+eas.json
+README.md

@@ -1,0 +1,17 @@
+# close_dev_menu.yaml
+# The development build's menu opens by itself a while after the app starts (on a phone sometimes seconds after
+# the welcome is gone) and covers the app: closed with back, its floating Tools button switched off first (it
+# would cover the app's menu button). Nothing happens when it is not open.
+appId: com.gotovosrb.app
+---
+- extendedWaitUntil:
+    visible: "Toggle performance monitor"
+    timeout: ${DEV_MENU_WAIT || 5000}
+    optional: true
+- runFlow:
+    when:
+      visible: "Toggle performance monitor"
+    commands:
+      - tapOn: "Tools button"
+      - pressKey: back
+- assertNotVisible: "Toggle performance monitor"

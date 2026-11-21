@@ -1,0 +1,20 @@
+# accept_offer.yaml
+# A logged-in client opens the new offer on ${TASK_NAME} from the inbox, agrees to the terms and accepts
+# it; the task is then confirmed.
+appId: com.gotovosrb.app
+---
+- tapOn: "INBOX"
+- extendedWaitUntil:
+    visible: "NEW OFFER"
+    timeout: 20000
+# (an offer's row ends its task name with a space)
+- tapOn: '${TASK_NAME}\s*'
+- scrollUntilVisible:
+    element: "ACCEPT OFFER"
+    # in the middle: the bottom bar\'s round + button covers its edge
+    centerElement: true
+- tapOn: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"
+- tapOn: "ACCEPT OFFER"
+- extendedWaitUntil:
+    visible: "YOUR TASK HAS BEEN CONFIRMED.*"
+    timeout: 20000

@@ -1,0 +1,31 @@
+# task_offer_accept.yaml
+# The app's main path on a real Android build, against the e2e backend (scripts/e2e-android.sh seeds it):
+# a client posts a task, a verified tasker sends an offer on it, the client accepts the offer.
+# The steps are in steps/; the users are E2eSeeder's (password 12345678).
+appId: com.gotovosrb.app
+env:
+  TASK_NAME: Fix the shower
+---
+- runFlow: steps/start.yaml
+- runFlow:
+    file: steps/login.yaml
+    env:
+      EMAIL: ana@example.test
+- runFlow: steps/post_task.yaml
+
+- runFlow: steps/start.yaml
+- runFlow:
+    file: steps/login_tasker.yaml
+    env:
+      EMAIL: pera@example.test
+- runFlow:
+    file: steps/send_offer.yaml
+    env:
+      PRICE: "2800"
+
+- runFlow: steps/start.yaml
+- runFlow:
+    file: steps/login.yaml
+    env:
+      EMAIL: ana@example.test
+- runFlow: steps/accept_offer.yaml

@@ -1,0 +1,24 @@
+# login.yaml
+# Logs in through the login modal (opened from the PROFILE tab while logged out, unless it is open already)
+# as ${EMAIL} with the e2e database's password, and declines the phone verification it offers.
+appId: com.gotovosrb.app
+---
+- runFlow:
+    when:
+      notVisible: "Forgot your password.*"
+    commands:
+      - tapOn: "PROFILE"
+- tapOn: "E-MAIL"
+- inputText: ${EMAIL}
+- tapOn: "PASSWORD"
+- inputText: "12345678"
+- hideKeyboard
+- tapOn:
+    text: "LOGIN"
+    index: 1
+# the e2e users have no verified phone: the app offers to verify it
+- extendedWaitUntil:
+    visible: "VERIFY PHONE NUMBER"
+    timeout: 20000
+- tapOn: "CANCEL"
+- assertNotVisible: "Forgot your password.*"

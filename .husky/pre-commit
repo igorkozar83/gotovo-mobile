@@ -1,0 +1,3 @@
+# Before every commit: the staged files only (see "lint-staged" in package.json): ESLint, Prettier and the
+# related Jest tests. (CI is not used: this is the gate.)
+npx lint-staged

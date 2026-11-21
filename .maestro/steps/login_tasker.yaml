@@ -1,0 +1,22 @@
+# login_tasker.yaml
+# Switches to the tasker role in the side menu (logged out, that opens the login, after the tasker
+# introduction) and logs in as ${EMAIL}.
+appId: com.gotovosrb.app
+---
+# the dev menu may have opened by itself since the start: it would cover the app's menu
+- runFlow:
+    file: close_dev_menu.yaml
+    env:
+      DEV_MENU_WAIT: 3000
+- tapOn: "Menu"
+# the tab's text starts on a new line
+- tapOn: '\s*TASKER'
+- tapOn:
+    text: "CONTINUE"
+    optional: true
+- runFlow: login.yaml
+# the side menu it was chosen in is still open: its X closes it
+- tapOn:
+    text: "Close"
+    index: 1
+- assertVisible: "find a project"

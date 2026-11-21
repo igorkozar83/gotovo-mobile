@@ -1,0 +1,44 @@
+# start.yaml
+# Opens the development build on this machine's Metro (adb reverse tcp:8081) and gets past what a fresh
+# install shows first: the welcome (terms), the emulator's "no push here" alert and the dev menu. The
+# notification permission is given before it starts (on a phone its system dialog would cover the welcome).
+appId: com.gotovosrb.app
+---
+- launchApp:
+    clearState: true
+    permissions:
+      notifications: allow
+- openLink: exp+gotovo://expo-development-client/?url=http%3A%2F%2Flocalhost%3A8081
+# the link can reach the dev launcher before it is ready: then its server is picked by hand
+- extendedWaitUntil:
+    visible: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"
+    timeout: 20000
+    optional: true
+- runFlow:
+    when:
+      visible: "DEVELOPMENT SERVERS"
+    commands:
+      - tapOn: "http://localhost:8081"
+- extendedWaitUntil:
+    visible: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"
+    timeout: 90000
+- tapOn: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"
+- tapOn: "OK"
+# an emulator has no push token
+- extendedWaitUntil:
+    visible: "Must use physical device for Push Notifications"
+    timeout: 15000
+    optional: true
+- tapOn:
+    text: "OK"
+    optional: true
+- extendedWaitUntil:
+    visible: "Continue"
+    timeout: 5000
+    optional: true
+- tapOn:
+    text: "Continue"
+    optional: true
+# the dev menu (it can open a moment later, and again later still: login_tasker closes it too)
+- runFlow: close_dev_menu.yaml
+- assertNotVisible: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"

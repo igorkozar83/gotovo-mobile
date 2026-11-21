@@ -1,0 +1,42 @@
+# post_task.yaml
+# A logged-in client posts a task named ${TASK_NAME}: the job of the first category, a description, one
+# time from the date picker, the saved address, a phone and the terms; then sees it in My Tasks.
+appId: com.gotovosrb.app
+---
+- tapOn: "POST A TASK"
+- tapOn: "TASK NAME"
+- inputText: ${TASK_NAME}
+- hideKeyboard
+- tapOn: "DESCRIPTION"
+- inputText: "Posted by the Maestro flow"
+- hideKeyboard
+- scrollUntilVisible:
+    element: "CHOOSE DATES"
+    # in the middle: the bottom bar\'s round + button covers its edge
+    centerElement: true
+- tapOn: "CHOOSE DATES"
+- tapOn: "OK"
+- scrollUntilVisible:
+    element: "PHONE NUMBER"
+    # in the middle: the bottom bar\'s round + button covers its edge
+    centerElement: true
+- tapOn: "PHONE NUMBER"
+- inputText: "0641234567"
+- hideKeyboard
+- scrollUntilVisible:
+    element: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"
+    # in the middle: the bottom bar\'s round + button covers its edge
+    centerElement: true
+- tapOn: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"
+- scrollUntilVisible:
+    element: "GET OFFERS"
+    # in the middle: the bottom bar\'s round + button covers its edge
+    centerElement: true
+- tapOn: "GET OFFERS"
+- extendedWaitUntil:
+    visible: "YOU HAVE POSTED A TASK"
+    timeout: 20000
+- tapOn: "OK"
+- extendedWaitUntil:
+    visible: ${TASK_NAME}
+    timeout: 20000

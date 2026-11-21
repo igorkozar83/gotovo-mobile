@@ -1,0 +1,33 @@
+# send_offer.yaml
+# A logged-in tasker opens the open task ${TASK_NAME} (a Household job) from Home, accepts the terms and
+# sends an offer of ${PRICE}; the inbox then shows it as sent.
+appId: com.gotovosrb.app
+---
+- tapOn: "Household"
+- scrollUntilVisible:
+    element: ${TASK_NAME}
+    # in the middle: the bottom bar\'s round + button covers its edge
+    centerElement: true
+- tapOn: ${TASK_NAME}
+- scrollUntilVisible:
+    element: "PROPOSE AN OFFER"
+    # in the middle: the bottom bar\'s round + button covers its edge
+    centerElement: true
+- tapOn: "By clicking below I confirm that I have read GOTOVO Terms & Conditions"
+- tapOn: "PROPOSE AN OFFER"
+- tapOn: "ENTER AMOUNT"
+- inputText: ${PRICE}
+# a phone's keyboard covers the explanation field
+- hideKeyboard
+- tapOn: "ADD EXPLANATION"
+- inputText: "Two hours with the parts"
+- hideKeyboard
+- tapOn: "SEND OFFER"
+- extendedWaitUntil:
+    # (the translation ends with a space)
+    visible: 'YOUR OFFER HAS BEEN SENT\s*'
+    timeout: 20000
+- tapOn: "Close"
+- extendedWaitUntil:
+    visible: "OFFER SENT"
+    timeout: 20000
