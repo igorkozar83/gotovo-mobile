@@ -3,7 +3,7 @@ export default {
     name: "Gotovo",
     slug: "gotovo",
     scheme: "com.gotovosrb.app",
-    version: "0.1.19",
+    version: "0.1.20",
     orientation: "portrait",
     icon: "./assets/icongotovo.png",
     jsEngine: "hermes",
@@ -76,7 +76,7 @@ export default {
       }
     },
     android: {
-      versionCode: 21,
+      versionCode: 22,
       softwareKeyboardLayoutMode: "pan",
       googleServicesFile: "./google-services.json",
       adaptiveIcon: {
