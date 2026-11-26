@@ -7,6 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context"
 import Header from "../components/Header"
 import InfoPageHeader from "../components/ui/InfoPageHeader"
 import { translate } from "../Helpers/language.utils"
+import { appVersion } from "../Helpers/appVersion"
 import { palette } from "../styles/palette"
 import { atoms } from "../styles/atoms"
 
@@ -50,7 +51,9 @@ const Contact = () => {
           </Text>
         </View>
         <View style={styles.form}>
-          <Text style={atoms.textAlignCenter}>{translate("contact.appVersion")} 0.13</Text>
+          <Text style={atoms.textAlignCenter}>
+            {translate("contact.appVersion")} {appVersion()}
+          </Text>
         </View>
       </ScrollView>
     </SafeAreaView>

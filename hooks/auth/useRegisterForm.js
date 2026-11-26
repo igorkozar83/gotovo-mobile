@@ -10,9 +10,10 @@ import useAppleLogin from "./useAppleLogin"
 import { googleToken } from "./useAccountActions"
 import useAlert from "../useAlert"
 import useUiStore from "../../stores/uiStore"
-import { isValidEmail, failedRules } from "../../Helpers/validation"
+import { isValidEmail, failedRules, personName } from "../../Helpers/validation"
 
 export const EMPTY_FORM = { name: "", lastname: "", email: "", password: "", confirmPassword: "" }
+const NAME_FIELDS = ["name", "lastname"]
 
 // the reasons the form can't be sent yet, one per line ("" when it can be sent)
 export const registerProblems = (form, agreement) =>
@@ -66,7 +67,8 @@ const useRegisterForm = () => {
 
   return {
     // a field's value and change handler
-    field: (key) => ({ value: form[key], onChangeText: (text) => setForm((current) => ({ ...current, [key]: text })) }),
+    // (the name fields take only what a name can hold)
+    field: (key) => ({ value: form[key], onChangeText: (text) => setForm((current) => ({ ...current, [key]: NAME_FIELDS.includes(key) ? personName(text) : text })) }),
     agreement,
     setAgreement,
     submit,

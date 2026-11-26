@@ -1,4 +1,17 @@
-import { isValidEmail, failedRules, newPasswordProblems } from "../validation"
+import { isValidEmail, failedRules, newPasswordProblems, personName } from "../validation"
+
+describe("personName", () => {
+  it("keeps letters of any alphabet with their accents, spaces, hyphens, apostrophes and dots", () => {
+    for (const name of ["Ana-Marija", "Šćepan Đurić", "D'Arcy", "D’Arcy", "J. Petrović", "Иван", "Müller", "Øster", "Νίκος", "José"]) expect(personName(name)).toBe(name)
+  })
+
+  it("drops digits and other signs as they are typed", () => {
+    expect(personName("Ana2")).toBe("Ana")
+    expect(personName("Aca test 100")).toBe("Aca test ")
+    expect(personName("#Pe@ra!_")).toBe("Pera")
+    expect(personName(null)).toBe("")
+  })
+})
 
 describe("isValidEmail", () => {
   it.each(["user@mail.com", "first.last+tag@sub.domain.rs", "a@b"])("accepts %s", (email) => {

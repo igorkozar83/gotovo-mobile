@@ -14,6 +14,7 @@ import { translate } from "../../Helpers/language.utils"
 import styles from "../../styles/PostTask.style"
 import { palette } from "../../styles/palette"
 import { spokenLabel } from "../../Helpers/accessibility"
+import { personName } from "../../Helpers/validation"
 
 export const LoginInvite = () => {
   const setAuthOpen = useUiStore((state) => state.setAuthOpen)
@@ -32,8 +33,9 @@ export const LoginInvite = () => {
 }
 
 const ACCOUNT_FIELDS = [
-  { name: "guest.name", label: "guestSignUp.name" },
-  { name: "guest.lastName", label: "guestSignUp.lastName" },
+  // (the name fields take only what a name can hold)
+  { name: "guest.name", label: "guestSignUp.name", clean: personName },
+  { name: "guest.lastName", label: "guestSignUp.lastName", clean: personName },
   { name: "guest.email", label: "guestSignUp.email", keyboardType: "email-address" },
   { name: "guest.password", label: "guestSignUp.password", secureTextEntry: true },
   { name: "guest.confirmPassword", label: "guestSignUp.confirmPassword", secureTextEntry: true }
@@ -55,7 +57,7 @@ export const AccountDetails = ({ control }) => (
               accessibilityLabel={spokenLabel(field.label)}
               keyboardType={field.keyboardType || "default"}
               value={value}
-              onChangeText={onChange}
+              onChangeText={field.clean ? (text) => onChange(field.clean(text)) : onChange}
               secureTextEntry={field.secureTextEntry || false}
               style={[styles.descInput, local.oneLine]}
             />

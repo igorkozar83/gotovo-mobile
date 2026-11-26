@@ -96,4 +96,17 @@ describe("dates", () => {
     expect(dateMonth(null, "EN")).toBe("")
     expect(getDate(at)).toBe("2026-10-08")
   })
+
+  it("a date's day has come by the calendar: not the day before, however few hours are left", () => {
+    const { isDayReached } = require("../index")
+    jest.useFakeTimers().setSystemTime(new Date(2026, 10, 17, 11, 42))
+    try {
+      expect(isDayReached("2026-11-18")).toBe(false)
+      expect(isDayReached("2026-11-17")).toBe(true)
+      expect(isDayReached("2026-11-16")).toBe(true)
+      expect(isDayReached(null)).toBe(false)
+    } finally {
+      jest.useRealTimers()
+    }
+  })
 })

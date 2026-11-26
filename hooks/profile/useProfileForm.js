@@ -6,6 +6,7 @@ import { useEffect, useState } from "react"
 import useAuthStore from "../../stores/authStore"
 import useAlert from "../useAlert"
 import useProfileActions from "./useProfileActions"
+import { personName } from "../../Helpers/validation"
 
 // the languages that have their own checkbox (others are picked from the list)
 const OWN_CHECKBOX = { Srpski: "sr", English: "en", Czech: "cz" }
@@ -25,6 +26,8 @@ const fromUser = (userData = {}) => {
   })
   return fields
 }
+
+const NAME_KEYS = ["name", "lastName"]
 
 // the text fields: their column and what makes them invalid
 const TEXT_FIELDS = {
@@ -58,7 +61,8 @@ const useProfileForm = () => {
     updateProfile({ [column]: value })
   }
 
-  const setText = (key, value) => setFields((current) => ({ ...current, [key]: value }))
+  // (the name fields take only what a name can hold)
+  const setText = (key, value) => setFields((current) => ({ ...current, [key]: NAME_KEYS.includes(key) ? personName(value) : value }))
 
   const endEditing = (key) => {
     const value = fields[key]

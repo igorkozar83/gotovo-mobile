@@ -834,7 +834,12 @@
 "RATE TASKER": "RATE TASKER",
 "Email couldn't be found in our system": "E-mail not found.",
 "Task must be posted or accepted Finished, canceled, etc tasks can't be canceled": "Task must be posted or accepted. Finished, canceled, etc. tasks can't be canceled.",
-"You already replied to this review": "You already replied to this review."
+"You already replied to this review": "You already replied to this review.",
+"OFFER CANCELLED": "OFFER CANCELLED",
+"Offer cancelation": "Offer cancelation",
+"Are you sure that you want to cancel offer?": "Are you sure that you want to cancel offer?",
+"Task is planned for a later date": "Task is planned for a later date.",
+"Start task error": "Start task error"
 },
 "SR": {
 "(Email verified)": "E-mail potvrđen",
@@ -1671,6 +1676,11 @@
 "RATE TASKER": "OCENI IZVOĐAČA",
 "Email couldn't be found in our system": "Korisnik sa navedenom e-mail adresom nije pronađen.",
 "Task must be posted or accepted Finished, canceled, etc tasks can't be canceled": "Zadatak mora biti zakazan kako bi bio otkazan.",
-"You already replied to this review": "Već ste odgovorili na ovu recenziju."
+"You already replied to this review": "Već ste odgovorili na ovu recenziju.",
+"OFFER CANCELLED": "PONUDA JE OTKAZANA",
+"Offer cancelation": "Otkazivanje ponude",
+"Are you sure that you want to cancel offer?": "Da li ste sigurni da želite da otkažete ponudu?",
+"Task is planned for a later date": "Zadatak je planiran za kasniji datum.",
+"Start task error": "Greška prilikom započinjanja zadatka"
 }
 }

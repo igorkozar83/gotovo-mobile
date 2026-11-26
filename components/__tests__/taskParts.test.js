@@ -204,6 +204,16 @@ describe("the tasker's active task", () => {
     expect(screen.queryByText("START TASK")).toBeNull()
   })
 
+  it("agreed for tomorrow: no START TASK, even half a day before", async () => {
+    jest.useFakeTimers({ doNotFake: ["nextTick", "setImmediate", "queueMicrotask"] }).setSystemTime(new Date(2026, 10, 17, 11, 42))
+    try {
+      await draw(acceptedTask({ accepted_by: tasker.id, times: [timeOf({ date: "2026-11-18", status: 1 })] }))
+      expect(screen.queryByText("START TASK")).toBeNull()
+    } finally {
+      jest.useRealTimers()
+    }
+  })
+
   it("on the day: start it, message the client, and cancel through the cancel form", async () => {
     await draw(acceptedTask({ accepted_by: tasker.id, times: [timeOf({ date: PAST, status: 1 })] }))
     await press("START TASK")
@@ -228,8 +238,15 @@ describe("the tasker's active task", () => {
 })
 
 describe("an offer's details", () => {
-  it("a canceled offer: by the client, or by the tasker with the reason", async () => {
-    await renderWithQuery(<CancellationNotice offer={offerOf({ status: 4 })} />)
+  it("a canceled offer: withdrawn by the tasker, the task canceled by the client, or by the tasker with the reason", async () => {
+    await renderWithQuery(<CancellationNotice offer={offerOf({ status: 4, canceled_by: "tasker" })} />)
+    expect(screen.getByText("OFFER CANCELLED")).toBeTruthy()
+    await renderWithQuery(<CancellationNotice offer={offerOf({ status: 4, canceled_by: "client" })} />)
+    expect(screen.getByText("TASK CANCELED BY CLIENT")).toBeTruthy()
+    // an older offer (no canceled_by): withdrawn when its task goes on, else the client's cancel
+    await renderWithQuery(<CancellationNotice offer={offerOf({ status: 4, task: taskOf({ status: 0 }) })} />)
+    expect(screen.getByText("OFFER CANCELLED")).toBeTruthy()
+    await renderWithQuery(<CancellationNotice offer={offerOf({ status: 4, task: taskOf({ status: 4 }) })} />)
     expect(screen.getByText("TASK CANCELED BY CLIENT")).toBeTruthy()
     await renderWithQuery(<CancellationNotice offer={offerOf({ status: 4, cancel_explanation: "Ill" })} />)
     expect(screen.getByText("Ill")).toBeTruthy()

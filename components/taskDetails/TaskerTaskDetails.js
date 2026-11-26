@@ -11,7 +11,7 @@ import TaskerDates from "../myTasks/TaskerDates"
 import useTaskerTaskActions from "../../hooks/myTasks/useTaskerTaskActions"
 
 import { translate } from "../../Helpers/language.utils"
-import { checkDiffToday } from "../../Helpers"
+import { isDayReached } from "../../Helpers"
 import { getTaskerOffer, getAcceptedTime } from "../../Helpers/taskStatus"
 import useAuthStore from "../../stores/authStore"
 import useUiStore from "../../stores/uiStore"
@@ -36,7 +36,8 @@ const TaskerTaskDetails = ({ task, setTask, onBackToList, openTaskDetails, arrow
 
   const offer = getTaskerOffer(task)
   const acceptedTime = getAcceptedTime(task)
-  const startsTodayOrEarlier = acceptedTime && checkDiffToday(acceptedTime.date, "days") >= 0
+  // (the work starts and is completed from its agreed day on, as the server allows)
+  const startsTodayOrEarlier = acceptedTime && isDayReached(acceptedTime.date)
 
   // once a date is accepted it's preselected and can't be changed
   useEffect(() => {

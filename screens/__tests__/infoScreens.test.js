@@ -155,6 +155,19 @@ describe("the information pages", () => {
     expect(openURL).toHaveBeenCalledWith("mailto:hello@gotovo.rs")
   })
 
+  it("contact: the version is the installed app's (it said 0.13 whatever was installed)", async () => {
+    const Constants = require("expo-constants").default
+    const before = Constants.expoConfig.version
+    Constants.expoConfig.version = "1.0.0"
+    try {
+      await renderWithQuery(<Contact />, withSettings())
+      expect(screen.getByText(/1\.0\.0/)).toBeTruthy()
+      expect(screen.queryByText(/0\.13/)).toBeNull()
+    } finally {
+      Constants.expoConfig.version = before
+    }
+  })
+
   it("the terms go back with OK", async () => {
     await renderWithQuery(<TermsAndConditions />, withSettings())
     expect(screen.getByText("OPŠTI USLOVI I PRAVILA KORIŠĆENJA ZA KORISNIKE")).toBeTruthy()

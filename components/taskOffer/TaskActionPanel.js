@@ -10,7 +10,7 @@ import { useNavigation } from "@react-navigation/native"
 import Button from "../ui/Button"
 import FastImageComponent from "../media/FastImageComponent"
 import { DateRow, DateRadio, spokenTime } from "../taskDetails/DateChoice"
-import { checkDiffToday } from "../../Helpers"
+import { isDayReached } from "../../Helpers"
 import { translate } from "../../Helpers/language.utils"
 import { palette } from "../../styles/palette"
 import { atoms } from "../../styles/atoms"
@@ -32,7 +32,7 @@ const TaskActionPanel = ({ offer, me, userSelect, colors, language, accepted, da
   const navigation = useNavigation()
   const task = offer.task
   const tasker = me.type !== "CLIENT"
-  const startsByNow = accepted && checkDiffToday(accepted.date, "hours") >= 0
+  const startsByNow = accepted && isDayReached(accepted.date)
   // only the tasker whose offer the client accepted starts and completes the task (a refused offer's tasker
   // sees the task's time, not its buttons)
   const myOffer = offer.user_id === me.id

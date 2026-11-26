@@ -77,6 +77,14 @@ describe("the profile form", () => {
     expect(alert()).toMatchObject({ text: "Please enter valid name." })
   })
 
+  it("the name fields take no digits or signs (the about field does)", async () => {
+    const { result } = await renderHookWithQuery(() => useProfileForm())
+    await act(async () => result.current.setText("name", "Ana2#"))
+    await act(async () => result.current.setText("lastName", "Anić-Petrović1"))
+    await act(async () => result.current.setText("about", "Majstor #1"))
+    expect(result.current.fields).toMatchObject({ name: "Ana", lastName: "Anić-Petrović", about: "Majstor #1" })
+  })
+
   it("choices are saved right away; a year before 1900 is refused", async () => {
     UsersAPI.updateProfile.mockResolvedValue(OK)
     const { result } = await renderHookWithQuery(() => useProfileForm())

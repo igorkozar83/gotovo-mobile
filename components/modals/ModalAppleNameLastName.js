@@ -10,6 +10,7 @@ import { translate } from "../../Helpers/language.utils"
 import GradientModal from "../sheets/GradientModal"
 import { palette } from "../../styles/palette"
 import { spokenLabel } from "../../Helpers/accessibility"
+import { personName } from "../../Helpers/validation"
 
 // appleNameLastName(name, lastName): logs in with them
 const ModalAppleNameLastName = ({ visible, onClose, userSelect, onSubmit }) => {
@@ -38,7 +39,7 @@ const ModalAppleNameLastName = ({ visible, onClose, userSelect, onSubmit }) => {
         <TextInput
           autoCapitalize="none"
           style={styles.input}
-          onChangeText={setName}
+          onChangeText={(text) => setName(personName(text))}
           accessibilityLabel={spokenLabel("modalAppleNameLastName.firstName")}
           placeholder={translate("modalAppleNameLastName.enterYourFirstName")}
           value={name}
@@ -47,7 +48,7 @@ const ModalAppleNameLastName = ({ visible, onClose, userSelect, onSubmit }) => {
         <TextInput
           autoCapitalize="none"
           style={styles.input}
-          onChangeText={setLastName}
+          onChangeText={(text) => setLastName(personName(text))}
           accessibilityLabel={spokenLabel("modalAppleNameLastName.lastName")}
           placeholder={translate("modalAppleNameLastName.enterYourLastName")}
           value={lastName}

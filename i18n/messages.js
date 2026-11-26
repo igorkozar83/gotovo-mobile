@@ -48,6 +48,7 @@ const messages = {
   "canceledTaskModal.noIAmGood": "No, I am good",
   "canceledTaskModal.seeOtherTasks": "SEE OTHER TASKS",
   "canceledTaskModal.taskerHasCanceledTheTask": "TASKER HAS CANCELED THE TASK",
+  "cancellationNotice.offerCanceled": "OFFER CANCELLED",
   "cancellationNotice.taskCanceledByClient": "TASK CANCELED BY CLIENT",
   "cancellationNotice.taskCanceledByTaskerWithThis": "TASK CANCELED BY TASKER WITH THIS EXPLANATION:",
   "cancelTaskTasker.addReasonForCancelation": "ADD REASON FOR CANCELATION:",

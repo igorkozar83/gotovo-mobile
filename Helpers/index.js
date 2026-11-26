@@ -58,6 +58,9 @@ export const zuluT = () => moment().format("YYYY-MM-DDTHH:mm:ss.sssZ")
 export const checkDiffToday = (time, type = "days") => moment().diff(moment(time), type)
 // whole days from the time's date to today
 export const checkDiffDates = (time) => moment(getDate()).diff(moment(moment(time).format("YYYY-MM-DD")), "days")
+// whether the date's day has come (today or before), by the calendar: checkDiffToday(date, "days") counted a day
+// still ahead as 0 (the half day to it rounds to zero), so a task could be started the day before
+export const isDayReached = (date) => !!date && !moment().isBefore(moment(date), "day")
 
 // --- ratings and prices
 
