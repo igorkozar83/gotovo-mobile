@@ -168,6 +168,17 @@ describe("the offer's task", () => {
     expect(onOfferCanceled).toHaveBeenCalled()
   })
 
+  it("a tasker's withdrawn offer is shown canceled by them at once (status and notice)", async () => {
+    useAuthStore.setState({ userSelect: "TASKER" })
+    cancelOffer.mockResolvedValue(undefined)
+    const onOfferCanceled = jest.fn()
+    const { result } = await actionsFor({ onOfferCanceled })
+    await act(async () => result.current.doCancelOffer())
+    await act(async () => alert().proceedAction())
+    expect(shown()).toMatchObject({ id: 30, status: 4, canceled_by: "tasker" })
+    expect(onOfferCanceled).toHaveBeenCalled()
+  })
+
   it("messaging opens the chat with the other side", async () => {
     showOffer(offerOf({ accepted_by_user: { id: 7 } }))
     const { result } = await actionsFor()

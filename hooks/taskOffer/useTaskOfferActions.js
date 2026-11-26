@@ -14,6 +14,7 @@ import { askToConfirm } from "../../stores/alerts"
 
 const MY_TASKS = ["myTasks"]
 const OFFERS = ["inbox", "offers"]
+const OFFER_CANCELED = 4
 
 /**
  * offerId: the offer shown; acceptedDate: the task's accepted time (then no other can be accepted); selectedDate: the time picked
@@ -45,17 +46,25 @@ const useTaskOfferActions = ({ offerId, acceptedDate, selectedDate, onOfferCance
     invalidate: [MY_TASKS, OFFERS]
   })
 
-  // the offer counts as canceled on the screen once the server answered, even with an error
+  // the offer counts as canceled on the screen once the server answered, even with an error. Withdrawn, the shown
+  // offer is the tasker's canceled one at once (its status and "offer cancelled" notice); refused, it reloads, as
+  // the server knows why
   const cancelOfferAction = useApiAction(cancelOffer, {
     success: { title: "useTaskOfferActions.taskOfferCancel", text: "useTaskOfferActions.taskOfferSuccessfullyCanceled" },
     error: "useTaskOfferActions.taskOfferCancelError",
     failed: "useTaskOfferActions.thereWasAnErrorWhileCanceling",
     invalid: {},
     invalidate: [MY_TASKS, OFFERS],
-    onSuccess: onOfferCanceled,
+    onSuccess: () => {
+      offerCache.update((current) => ({ ...current, status: OFFER_CANCELED, canceled_by: "tasker" }))
+      onOfferCanceled()
+    },
     onError: (error) => {
       const refusal = apiError(error)
-      if (refusal && refusal.code !== "invalid") onOfferCanceled()
+      if (refusal && refusal.code !== "invalid") {
+        offerCache.reload()
+        onOfferCanceled()
+      }
     }
   })
 

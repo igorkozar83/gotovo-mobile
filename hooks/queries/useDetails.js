@@ -67,12 +67,14 @@ export const useOpenTaskOffer = () => {
   )
 }
 
-// the offer `offerId` in the cache: get() as it is now (read when an action runs), update(fn) after one
+// the offer `offerId` in the cache: get() as it is now (read when an action runs), update(fn) after one, reload()
+// from the server
 export const useOfferCache = (offerId) => {
   const queryClient = useQueryClient()
   return {
     get: () => queryClient.getQueryData(offerKeys.detail(offerId)),
-    update: (fn) => queryClient.setQueryData(offerKeys.detail(offerId), (current) => (current ? fn(current) : current))
+    update: (fn) => queryClient.setQueryData(offerKeys.detail(offerId), (current) => (current ? fn(current) : current)),
+    reload: () => queryClient.invalidateQueries({ queryKey: offerKeys.detail(offerId) })
   }
 }
 
